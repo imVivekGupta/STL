@@ -1,0 +1,52 @@
+Containers:
+vector : array (most used)
+queue 
+stack
+priority_queue : heap
+list : linked list
+set : tree (balanced bst)
+map : associative array
+
+Array(static): linear collection of similar elements
+pair is a template class in STL, not a part of container
+
+Vector(dynamic):doesn't resize on every step. doubles in size when filled and one more inserted.
+
+List: bidirectional linear list sequentially accessible front to back or back to front
+
+Map: Associative array (regular one is called numeric array because indices are numeric) contains sorted key-value pair, in which each key is unique(can be inserted,deleted but cannot be altered.)  
+
+Map[key] = value
+
+keys are kept in sorted order
+
+Set: same as map except that it stores only the key. hence, no duplicates. implemented as a Balanced BST (RB tree), all operations have O(log n) complexity. elements sorted in ascending order.
+
+PYTHON Notes
+--type(var) gives data type of var
+str() used to switch between data type
+str is string data type "vivek" or 'vivek'
+bool is boolean data type .. True or False
+list is also a data type. l=[a,b,c]
+any type of a,b,c (even lists)... also different types of a,b,c
+[['a',1],['b',2],['c',3]]
+type(l) gives list
+'a'*5 gives 'aaaaa' as output
+** is the exponentiation operator ... preferred over others
+'aa'**3 = 'aaaaaaaa' 
+zero based indexing in lists. also negative indexing for accessing elements in the reverse order from the back... l[-1]=c
+slicing.... returns a sublist... [start index inclusive : end index exclusive] 
+changing an element is easy.. l[0]=x  ... also l[0:2]=[x,y]
++ simply adds two lists 
+del(l[1]) deletes element at index 1
+y=x where x and y are lists copies reference , so changes made to y are reflected in x.
+to avoid this, use y=x[:] or y=list(x)
+The ; sign is used to place commands on the same line
+round() and max() functions... help(function_name) gives the documentation of the function
+len() is used to find length of string and no. of elements in a list
+sorted() can be used to sort a list
+methods are functions that belong to python objects
+packages are directories of python scripts(modules)
+import <package> .... e.g. math package
+has functions accessed as math.pi and math.radians(<angle in degree>)
+from numpy<package> import array<function> ... now no need to use the dot operator
